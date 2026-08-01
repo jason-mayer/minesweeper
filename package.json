@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "tsc -b && rollup -c"
+    "pack": "node build.mjs pack",
+    "build": "node build.mjs"
   },
   "devDependencies": {
     "esbuild": "^0.28.1"
